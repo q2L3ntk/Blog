@@ -1,0 +1,15 @@
+.footer-container {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
