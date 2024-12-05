@@ -11,4 +11,16 @@ class MainController extends Controller
     {
         return view('index');
     }
+
+    public function About() {
+        return view('about');
+    }
+
+    public function Articles() {
+        return view('last-articles');
+    }
+
+    public function Archive() {
+        return view('archive');
+    }
 }

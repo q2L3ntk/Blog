@@ -15,3 +15,10 @@ use App\Http\Controllers\MainController;
 */
 
 Route::get('/', [MainController::class, 'Index']);
+
+Route::get('/about', [MainController::class, 'About']);
+
+Route::get('/last-articles', [MainController::class, 'Articles']);
+
+Route::get('/archive', [MainController::class, 'Archive']);
+
