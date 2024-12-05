@@ -1,4 +1,6 @@
 body {
     margin: 0;
-    background-color: #2d3748;
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 115%;
 }

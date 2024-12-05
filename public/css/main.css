@@ -5,6 +5,7 @@
 .main-container {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 40px;
 }
 
 .main-wrapper {
@@ -15,9 +16,11 @@
     padding-inline: 200px;
     background-color: black;
     border: 2px solid #ffa600;
-
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #ffa600;
 }
 
 h2 {
     color: white;
+    font-family: Tektur;
 }

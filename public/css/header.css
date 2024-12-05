@@ -1,4 +1,7 @@
-@import "page.css";
+@font-face {
+    font-family: 'Tektur';
+    src: url(/fonts/Tektur.ttf);
+}
 
 header {
     width: 100%;
@@ -10,13 +13,28 @@ header {
     border: 4px solid #ffa600;
 }
 
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-    font-family: sans-serif;
+h1 {
+    font-family: Tektur;
+    font-size: 52px;
+    -webkit-text-stroke: 1px #ffa600;
+}
+
+.ps {
+    font-family: Tektur;
+    -webkit-text-stroke: 0.5px #ffa600;
+    font-size: 30px;
+    position: absolute;
+    padding-top: 95px;
+    padding-left: 700px;
 }

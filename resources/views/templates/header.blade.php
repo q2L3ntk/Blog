@@ -13,6 +13,13 @@
                 <a href=""><b>О САЙТЕ</b></a>
                 <a href=""><b>ПОСЛЕДНИЕ СТАТЬИ</b></a>
                 <a href=""><b>АРХИВ</b></a>
+                <a href=""><b>ВОЙТИ</b></a>
             </nav>
         </div>
     </header>
+    <div class="logo-container">
+        <img src="{{asset('images/logo.png')}}" width="240" height="240" alt="logo">
+        <h1>Дневник сумашедшего</h1>
+        <p class="ps"><b>by q2l3ntk</b></p>
+    </div>
+
