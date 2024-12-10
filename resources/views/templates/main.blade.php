@@ -4,7 +4,7 @@
             <h2>Последние статьи</h2>
             <div class="last-articles"></div>
         </div>
-        <div class="main-wrapper">
+        <div class="main-wrapper archive">
             <h2>Архив</h2>
             <div class="all-articles"></div>
         </div>

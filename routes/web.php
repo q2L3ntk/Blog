@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
 
@@ -21,4 +22,8 @@ Route::get('/about', [MainController::class, 'about']);
 Route::get('/last-articles', [MainController::class, 'articles']);
 
 Route::get('/archive', [MainController::class, 'archive']);
+
+Route::get('/posts', [PostController::class, 'index']);
+
+Route::get('/posts/create', [PostController::class, 'create']);
 

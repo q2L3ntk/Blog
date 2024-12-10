@@ -4,7 +4,8 @@
 
 .main-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 15px;
     margin-bottom: 40px;
 }
 
@@ -16,8 +17,10 @@
     padding-inline: 200px;
     background-color: black;
     border: 2px solid #ffa600;
-    border-radius: 10px;
-    box-shadow: 10px 5px 5px #ffa600;
+}
+
+.archive {
+
 }
 
 h2 {
