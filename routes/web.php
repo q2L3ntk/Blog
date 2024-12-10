@@ -14,11 +14,11 @@ use App\Http\Controllers\MainController;
 |
 */
 
-Route::get('/', [MainController::class, 'Index']);
+Route::get('/', [MainController::class, 'index']);
 
-Route::get('/about', [MainController::class, 'About']);
+Route::get('/about', [MainController::class, 'about']);
 
-Route::get('/last-articles', [MainController::class, 'Articles']);
+Route::get('/last-articles', [MainController::class, 'articles']);
 
-Route::get('/archive', [MainController::class, 'Archive']);
+Route::get('/archive', [MainController::class, 'archive']);
 
