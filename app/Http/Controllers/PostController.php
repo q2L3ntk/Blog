@@ -57,4 +57,25 @@ class PostController extends Controller
         Post::withTrashed()->find(2)->restore();
         dd('deleted');
     }
+
+    public function firstOrCreate()
+    {
+        $anotherPost = [
+            'title' => 'some post',
+            'content' => 'some content',
+            'image' => 'some image',
+            'likes' => 560,
+            'is_published' => true,
+        ];
+
+         $post = Post::firstOrCreate([
+             'title' => 'title of post',
+             'content' => 'some content',
+             'image' => 'some image',
+             'likes' => 560,
+             'is_published' => true,
+         ]);
+         dump($post->content);
+         dd('firstOrCreate');
+    }
 }
